@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Html</title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: blue;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var heading = document.querySelector('h1');
+        heading.addEventListener('click', function() {
+          alert('Hello, World!');
+        });
+      });
+    </script>
+  </body>
+</html>
